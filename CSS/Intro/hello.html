@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello </title>
+        <style>
+            li {
+                color: red;
+            }
+            ul > li{
+                color: blue;
+            }
+            @media(max-width: 600px){
+                body{
+                    background-color: green;
+                }
+                li {
+                    color: black;
+                }
+            }
+            @media (min-width: 610px) {
+                body{
+                    background-color: red;
+                }
+                li {
+                    color: yellow;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>list item one</li>
+            <li>list item two</li>
+            <ul>
+                <li>Sublidt itmem one</li>
+                <li>Sublidt itmem two</li>
+                <li>Sublidt itmem three</li>
+            </ul>
+            <li>list item three</li>
+            <li>list item four</li>
+        </ol>
+    </body>
+</html>
